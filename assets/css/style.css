@@ -2,6 +2,7 @@
     --primary-color: #92cdcc;
     --secondary-color: #30343c;
     --third-color: #ecedf7;
+    --fourth-color: #455976;
 }
 
 * {
@@ -65,6 +66,64 @@ a {
     font-size: 35px;
 }
 
+/* All titles */
+.title {
+    text-align: right;
+    font-size: 40px;
+    color: var(--fourth-color);
+    width: 175px;
+}
+
+.title-box {
+    /* margin: 0 0 0 100px; */
+    border-right: var(--fourth-color) 3px solid;
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+/* About me section */
+#about-me article {
+    display: flex;
+    margin: 40px 0;
+}
+
+#about-me article p {
+    margin: 0 100px 0 30px;
+    color: var(--fourth-color);
+}
+
+/* Work section */
+#work article {
+    display: flex;
+    margin: 40px 0;
+}
+
+#work article p {
+    margin: 0 100px 0 30px;
+    color: var(--fourth-color);
+}
+
+/* Contact me section */
+#contact-me article {
+    display: flex;
+    margin: 40px 0;
+}
+
+#contact-me article p {
+    margin: 0 100px 0 30px;
+    color: var(--fourth-color);
+}
+
+/* Resume section */
+#resume article {
+    display: flex;
+    margin: 40px 0;
+}
+
+#resume article p {
+    margin: 0 100px 0 30px;
+    color: var(--fourth-color);
+}
 
 /* Footer */
 footer {
@@ -76,5 +135,4 @@ footer {
     padding: 5px 0;
     justify-content: center;
     align-items: center;
-    
 }
