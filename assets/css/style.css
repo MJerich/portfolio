@@ -14,6 +14,12 @@ a {
     text-decoration: none;
 }
 
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Header */
 #header {
     display: flex;
@@ -75,10 +81,9 @@ a {
 }
 
 .title-box {
-    /* margin: 0 0 0 100px; */
     border-right: var(--fourth-color) 3px solid;
     padding-right: 20px;
-    margin-left: 50px;
+    margin-left: 8%;
 }
 
 /* About me section */
@@ -92,15 +97,74 @@ a {
     color: var(--fourth-color);
 }
 
+.content {
+    width: 500px;
+}
+
 /* Work section */
 #work article {
     display: flex;
     margin: 40px 0;
 }
 
-#work article p {
-    margin: 0 100px 0 30px;
-    color: var(--fourth-color);
+.run-buddy {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+    border: var(--primary-color) 5px solid;
+    background-image: url(../images/run-buddy.jpg);
+    background-color: var(--fourth-color);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: top;
+}
+
+.run-buddy:hover {
+    background-blend-mode: normal;
+}
+
+#row-1 {
+    display: flex;
+    margin: 20px 0 0 40px;
+    gap: 20px;
+}
+
+.work-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 235px;
+    height: 100px;
+    border: var(--primary-color) 5px solid;
+    background-image: url(../images/default-work.jpg);
+    background-color: var(--fourth-color);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: top;
+}
+
+.work-small:hover {
+    background-blend-mode: normal;
+}
+
+.text-block {
+    background-color: var(--primary-color);
+    padding: 7px;
+    margin: 0 auto 10px 0;
+}
+
+.work-title {
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.work-type {
+    color: var(--secondary-color);
+    font-size: 15px;
 }
 
 /* Contact me section */
@@ -112,7 +176,7 @@ a {
 .contact-links {
     display: flex;
     width: 100%;
-    gap: 10%;
+    gap: 20px;
     list-style-type: none;
     margin-top: 40px;
 }
