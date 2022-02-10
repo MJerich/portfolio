@@ -109,9 +109,19 @@ a {
     margin: 40px 0;
 }
 
-#contact-me article p {
-    margin: 0 100px 0 30px;
-    color: var(--fourth-color);
+.contact-links {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.contact-links li a {
+    font-size: 19px;
+    color: var(--secondary-color);
+    border-bottom: var(--fourth-color) 3px solid;
+    padding: 0 7px;
 }
 
 /* Resume section */
