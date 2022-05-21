@@ -139,11 +139,18 @@ a {
     width: 235px;
     height: 100px;
     border: var(--primary-color) 5px solid;
-    background-image: url(../images/default-work.jpg);
     background-color: var(--fourth-color);
     background-blend-mode: screen;
     background-size: cover;
     background-position: top;
+}
+
+.default {
+    background-image: url(../images/default-work.jpg);
+}
+
+.library {
+    background-image: url(../images/fullstack.png);
 }
 
 .work-small:hover {
